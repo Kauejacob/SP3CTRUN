@@ -1,4 +1,3 @@
-# backtest/universe.py
 """
 Define o universo de investimento (30 ações mais líquidas da B3).
 """
@@ -339,4 +338,5 @@ if __name__ == "__main__":
         print("  1. Conexão com internet instável")
         print("  2. yfinance com problemas temporários")
         print("  3. Tickers desatualizados/delisted")
+
         print("\nTente novamente em alguns minutos.")
