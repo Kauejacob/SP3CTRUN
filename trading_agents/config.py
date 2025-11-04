@@ -1,4 +1,3 @@
-# config.py
 """
 Configurações centralizadas do projeto.
 """
@@ -41,4 +40,5 @@ BACKTEST_START = "2020-01-01"
 BACKTEST_END = "2024-12-31"
 
 # ============ DEBUG ============
+
 print(f"✅ Config carregado. API Key: {OPENAI_API_KEY[:20]}...")
