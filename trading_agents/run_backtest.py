@@ -1,4 +1,3 @@
-# run_backtest.py
 """
 Script principal para executar backtest completo do fundo multi-agente.
 
@@ -291,4 +290,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
