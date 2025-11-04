@@ -1,4 +1,3 @@
-# agents/analyst.py
 """
 Agente Analista Fundamental.
 Coleta dados, valida, calcula score e gera relatório estruturado.
@@ -456,4 +455,5 @@ if __name__ == "__main__":
         
         print("\n" + "="*70)
     else:
+
         print(f"\n❌ Erro: {result['message']}")
