@@ -1,4 +1,3 @@
-# agents/bull.py
 """
 Agente Otimista (Bull) - Analisa oportunidades e cenários positivos.
 """
@@ -303,4 +302,5 @@ if __name__ == "__main__":
         print(f"   • {opp}")
     
     print(f"\n📖 Melhor Cenário:")
+
     print(f"   {bull_result.best_case_scenario}")
