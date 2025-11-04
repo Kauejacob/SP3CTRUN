@@ -1,4 +1,3 @@
-# backtest/engine.py
 """
 Engine principal de backtest.
 Coordena análise dos agentes + execução de trades + tracking de performance.
@@ -591,4 +590,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ ERRO NO TESTE: {e}")
         import traceback
+
         traceback.print_exc()
