@@ -45,18 +45,17 @@ Methodology (Reproducibility First)
 -Evaluation: CAGR, Sharpe, Sortino, Max DD, Calmar, Hit-rate, Turnover, TE vs. CDI/IBOV.
 
 Quickstart
- 1) Create env
-  python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-  pip install -r requirements.txt
+ 1) Create env:
+    python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+    pip install -r requirements.txt
+ 2) Set keys (if needed):
+    e.g., export OPENAI_API_KEY=...
 
- 2) Set keys (if needed)
-  e.g., export OPENAI_API_KEY=...
+ 3) Run backtest:
+    python -m sp3ctrum.backtest.run --start YYYY-MM-DD --end YYYY-MM-DD --universe b3_top_liquidity
 
- 3) Run backtest
-  python -m sp3ctrum.backtest.run --start YYYY-MM-DD --end YYYY-MM-DD --universe b3_top_liquidity
-
- 4) Generate report
-  python -m sp3ctrum.backtest.report --last-run
+ 4) Generate report:
+    python -m sp3ctrum.backtest.report --last-run
 
 Results (Summary)
 
